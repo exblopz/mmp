@@ -1,0 +1,68 @@
+/*!
+ * Ext JS Library 3.3.1
+ * Copyright(c) 2006-2010 Sencha Inc.
+ * licensing@sencha.com
+ * http://www.sencha.com/license
+ */
+
+.search-item {
+    font:normal 15px tahoma, arial, helvetica, sans-serif;
+    padding:3px 10px 3px 10px;
+    border:1px solid #fff;
+    border-bottom:1px solid #eeeeee;
+    white-space:normal;
+    color:#fff;
+}
+.search-item h3 {
+    display:block;
+    font:inherit;
+    font-weight:bold;
+    color:#fff;
+}
+
+.search-item h3 div {
+    float: left;
+    font-weight:normal;
+    margin:0 0 5px 5px;
+    width:10px;
+    display:block;
+    clear:none;
+}
+
+.search-item h3 div.name {
+    
+    font-weight:bold;
+    margin:0 0 5px 5px;
+    width:100px;
+    display:block;
+    clear:;
+}
+
+.search-item h3 div.upc {
+    float: right;
+    font-weight:bold;
+    margin:0 0 5px 5px;
+    width:100px;
+    display:block;
+    clear:;
+}
+
+.search-item h3 div.platform {
+    float: left;
+    font-weight:normal;
+    margin:0 0 5px 5px;
+    width:20px;
+    display:block;
+    clear:none;
+}
+table.table-item-suggest       { font:20px arial, helvetica, sans-serif; border-collapse:collapse; }
+
+table.table-suggest       { font:13px arial, helvetica, sans-serif; border-collapse:collapse; border:1px solid #ccc; }
+table.table-suggest td, table.table-suggest th  { padding:3px 8px; border:1px solid #ccc; }
+table.table-suggest tr      { background:#f2f2f2;}
+table.table-suggest th      { background:#ddd;}
+
+table.table-member-suggest       { font:11px arial, helvetica, sans-serif; border-collapse:collapse; border:1px solid #fff; }
+table.table-member-suggest td, table.table-member-suggest th  { padding:3px 8px; border:1px solid #fff; }
+table.table-member-suggest tr      { background:#aaa;}
+table.table-member-suggest th      { background:#000;}
